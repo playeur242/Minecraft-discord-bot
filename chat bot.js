@@ -20,7 +20,7 @@ const mineflayerWrapper = () => {
     
       bot.on('login', () => { 
         fredbotConn = true
-        console.log('Ingame Bot Onlne')
+        console.log('Ingame Bot Online')
         bot.chat('Cats Am I Right')
     })
     
